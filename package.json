@@ -1,0 +1,13 @@
+{
+  "name": "studypilot",
+  "version": "1.0.0",
+  "description": "StudyPilot – a study planner with assignments, courses and a Pomodoro focus timer. Built with AI (vibe coding).",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/logic.test.js",
+    "test:e2e": "node tests/e2e/run-e2e.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}
