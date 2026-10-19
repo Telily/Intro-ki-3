@@ -111,7 +111,15 @@ into my project folder and run code and tests.
 
 ### Reflection
 
-*(Add your own thoughts here: what worked well with AI, what you had to correct or decide yourself, and what you would add next.)*
+I picked a study planner because keeping track of deadlines across different courses is something I actually struggle with. Usually they’re spread out over Canvas, emails and my own notes.
+
+What surprised me most was how fast it went from an idea to something that actually works. I described what I wanted in normal language, and instead of just spitting out code, the AI first asked me a few questions (what kind of app, where to save it, which language). That made the result feel more like my app and less like a random template.
+
+The part I learned the most from was testing. I didn’t expect that, since I didn’t write the tests myself. The AI wrote automated tests and took screenshots of every page, and that’s how we found a bug I would never have noticed: because I built the app on a Monday, the “this week” chart was completely empty even though there was lots of study time from the days before. We changed it to show the last 7 days instead. Some of the tests also failed because the test was wrong, not the app, which showed me you can’t blindly trust either the code or the tests.
+
+Not everything was automatic. I had to make my own decisions, and I had to figure out GitHub Pages myself. My repository was private, so Pages didn’t work until I made it public. At first I also mixed up the link to the code (github.com) with the link to the live website (github.io).
+
+My takeaway is that AI is really good at turning an idea into working code quickly. You still need to understand what you want, check that it actually works, and make the decisions along the way. If I continued, I would add reminders before deadlines, a calendar view and maybe a way to import deadlines straight from Canvas.
 
 Ideas for next steps: reminders/notifications before deadlines, a calendar view, syncing between devices, and importing
 deadlines from Canvas.
