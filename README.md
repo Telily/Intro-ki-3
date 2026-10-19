@@ -5,7 +5,8 @@ It combines a deadline planner, per-course progress tracking and a Pomodoro focu
 
 > Built for the *Intro to AI* "Vibe Coding" assignment – the app was planned, written, tested and improved with generative AI.
 
-**Live demo:** `https://<your-github-username>.github.io/Intro-ki-3/` *(update after enabling GitHub Pages – see below)*
+**Live demo:** https://telily.github.io/Intro-ki-3/  
+**Source code:** https://github.com/Telily/Intro-ki-3
 
 ![Dashboard](docs/dashboard.png)
 
@@ -119,4 +120,4 @@ deadlines from Canvas.
 
 1. Open the repository in **GitHub Desktop** and click **Publish repository** (untick *Keep this code private*).
 2. On github.com open the repo → **Settings → Pages** → *Source: Deploy from a branch* → branch **main**, folder **/ (root)** → **Save**.
-3. After a minute the app is live at `https://<your-github-username>.github.io/Intro-ki-3/`. Put that link at the top of this README.
+3. After a minute the app is live at https://telily.github.io/Intro-ki-3/.
